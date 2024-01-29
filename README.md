@@ -78,6 +78,7 @@ with a non-priority robot.
 
 Robots must not deliberately try to cause collisions, whether or not they have priority, whether actively or passively. In particular, countermeasures to prevent a robot from being detected are forbidden. A robot that does not comply with this
 rule may be immediately excluded from the competition.
+
 For details go check the rules (it's in french) : [Race's rules](Suiveur-de-Ligne-V3.1.pdf)
 ### Components
 [List of components](List-of-components.md)
