@@ -7,7 +7,7 @@ Created by DAUNOIS Hugo and LANFREDI Camille
 - [Objectifs](#-Objectifs)
   - [Rules](#Rules)
   - [Components](#Components)
-- [Specifications](#-Specifications)
+- [Specifications](#Specifications)
   - [Functional analysis](#Functional-analysis)
   - [Development](#development)
   - [3D Modelisation](#3D-Modelisation)
