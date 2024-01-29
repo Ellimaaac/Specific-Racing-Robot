@@ -11,7 +11,7 @@ This Grove module will on top of the Arduino and will useful for simplifying the
 
 picture
 
-[Link to website]([https://store.arduino.cc/products/arduino-mega-2560-rev3](https://www.seeedstudio.com/Grove-Mega-Shield-v1-2.html))
+[Link to website](https://www.seeedstudio.com/Grove-Mega-Shield-v1-2.html)
 - Motor board
 - Infrared sensors : QTRC-8RC
 - Pololu  motors with wheels
