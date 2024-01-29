@@ -23,6 +23,15 @@ Realized in 2022
 ### Order 2
 ### Order 3
 ## Development
+### Analysing the track
+### Generating motor control signals
+### Varying the duty cycle
+### Following the trail
+### Finding a shortcut
+### Vehicle detection
+### End of course
+### Bonus : Making a figure
+
 ## 3D Modelisation
 # Deliverables
 # Contributions
