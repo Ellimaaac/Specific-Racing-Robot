@@ -97,6 +97,8 @@ For details go check the rules (it's in french) : [Race's rules](Suiveur-de-Lign
 # Development
 All the functions will be implemented using an Arduino mega board with an atmega2560. This board offers us a wide range of possibilities, thanks in particular to all its available ports such as its 5 programmable timers and its many interrupt ports. This will be useful for the rest of the project. To make it easier to connect to the board, we plugged a Grove Shield into the Arduino board. This module allows us to interface all our sensors simply using 4 wires that include the power supply (Vcc, GND) and two Arduino ports (digital, i2c, analogue, etc.).
 ## Analysing the track
+The robot must be able to find its way around the track. To do this, it will emit to probe the ground and it will pick up the waves reflected by the runway. This will analyse the runway. So we have a QTR-8RC module. This module has 8 infrared sensors and is made up of phototransistors and light-emitting diodes (LEDs) arranged in pairs. These pairs of LEDs are connected in series. This halves current consumption. It also has a MOSFET transistor to switch off the LEDs for better energy management. However we won't be using it because it takes longer to measure. Each sensor provides an independent
+digital output. The current-limiting resistors are adapted for 5 V operation by means of two resistors in parallel. By shunting the two resistors, this allows operation at 3.3 V operation (bypass). The current is between 20-25 mA per pair of LEDs. The module therefore has a total consumption of 100mA.
 ## Generating motor control signals
 ## Varying the duty cycle
 ## Following the trail
