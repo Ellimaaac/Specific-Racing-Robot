@@ -38,7 +38,7 @@ A robot is declared the **"winner"** when, having finished following its track, 
 the track. The ends of the bar are placed on two supports that keep it 4 cm above the ground (cf.
 figure 2).
 
-picture
+<p align="center"><img src="img/TRACK.png"></p>
 
 A second wooden bar is located 20 cm behind the first. If this second bar
 falls, for whatever reason, the robot receives a **time penalty of 5 seconds**.
@@ -86,8 +86,14 @@ For details go check the rules (it's in french) : [Race's rules](Suiveur-de-Lign
 # Specifications
 ## Functional analysis
 ### Order 1
+<p align="center"><img src="img/order1.png"></p>
+
 ### Order 2
+<p align="center"><img src="img/order2.png"></p>
+
 ### Order 3
+<p align="center"><img src="img/order3.png"></p>
+
 ## Development
 ### Analysing the track
 ### Generating motor control signals
