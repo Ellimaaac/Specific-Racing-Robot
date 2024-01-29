@@ -16,6 +16,7 @@ Created by DAUNOIS Hugo and LANFREDI Camille
 
 
 # Objectifs
+Create digital racing robot
 ## Rules
 ### Article 1: Definition
 The Line Follower Robot Competition is a speed race between two autonomous robots
