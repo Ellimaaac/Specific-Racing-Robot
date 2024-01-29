@@ -9,7 +9,7 @@ Created by DAUNOIS Hugo and LANFREDI Camille
   - [Components](#Components)
 - [Specifications](#Specifications)
   - [Functional analysis](#Functional-analysis)
-  - [Development](#development)
+- [Development](#development)
   - [3D Modelisation](#3D-Modelisation)
   - [BONUS](#bonus)
 - [Deliverables](#Deliverables)
