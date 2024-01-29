@@ -99,9 +99,10 @@ All the functions will be implemented using an Arduino mega board with an atmega
 ## Analysing the track
 ## Generating motor control signals
 ## Varying the duty cycle
-### Following the trail
+## Following the trail
 ## Finding a shortcut
-## Vehicle detection### End of course
+## Vehicle detection
+## End of course
 ## Bonus : Making a figure
 ## Visualise the state of the robot
 ## 3D Modelisation
