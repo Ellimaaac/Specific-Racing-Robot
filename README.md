@@ -8,12 +8,9 @@ Created by DAUNOIS Hugo and LANFREDI Camille in 2022
 - [Specifications](#-Specifications)
   - [Functional analysis](#Functional-analysis)
   - [Development](#development)
-  - 
-- [📁 Branches structure](#-branches-structure)
-  - 📅 Management Section
-  - 🛠️ Hardware Section
-  - 💻 Software Section
-- [🚀 Contributions](#-contributions)
-- [📜 Licence](#-licence)
+  - [3D Modelisation](#3D-Modelisation)
+- [Deliverables](#Deliverables)
+- [Contributions](#-contributions)
+
 
 ## 📌 Présentation
