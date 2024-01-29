@@ -1,5 +1,6 @@
 # Specific-Racing-Robot
-Created by DAUNOIS Hugo and LANFREDI Camille in 2022
+Created by DAUNOIS Hugo and LANFREDI Camille 
+Realized in 2022
 
 ## 📖 Table of contents
 
