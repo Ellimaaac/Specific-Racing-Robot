@@ -92,7 +92,7 @@ For details go check the rules (it's in french) : [Race's rules](Suiveur-de-Lign
 <p align="center"><img src="img/order2.png"width="500"height="280"></p>
 
 ### Order 3
-<p align="center"><img src="img/order3.png"width="600"height="350"></p>
+<p align="center"><img src="img/order3.png"width="600"height="400"></p>
 
 ## Development
 ### Analysing the track
