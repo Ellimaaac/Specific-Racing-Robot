@@ -19,6 +19,13 @@ Realized in 2022
 
 # Objectifs
 ## Rules
+### Article 1
+### Article 2
+### Article 3
+### Article 4
+### Article 5
+### Article 6
+### Article 7
 ### Components
 [List of components](List-of-components.md)
 # Specifications
