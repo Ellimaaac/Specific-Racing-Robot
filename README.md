@@ -86,7 +86,7 @@ For details go check the rules (it's in french) : [Race's rules](Suiveur-de-Lign
 # Specifications
 ## Functional analysis
 ### Order 1
-<p align="center"><img src="img/order1.png"width="600"height="400"></p>
+<p align="center"><img src="img/order1.png"width="500"height="300"></p>
 
 ### Order 2
 <p align="center"><img src="img/order2.png"width="600"height="400"></p>
