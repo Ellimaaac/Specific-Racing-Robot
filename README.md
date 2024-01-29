@@ -4,7 +4,7 @@ Created by DAUNOIS Hugo and LANFREDI Camille
 
 ## 📖 Table of contents
 
-- [Objectifs](#-Objectifs)
+- [Objectifs](#Objectifs)
   - [Rules](#Rules)
   - [Components](#Components)
 - [Specifications](#Specifications)
@@ -13,7 +13,7 @@ Created by DAUNOIS Hugo and LANFREDI Camille
   - [3D Modelisation](#3D-Modelisation)
   - [BONUS](#bonus)
 - [Deliverables](#Deliverables)
-- [Contributions](#-contributions)
+- [Contributions](#contributions)
 
 
 # Objectifs
