@@ -94,17 +94,16 @@ For details go check the rules (it's in french) : [Race's rules](Suiveur-de-Lign
 ### Order 3
 <p align="center"><img src="img/order3.png"width="600"height="400"></p>
 
-## Development
+# Development
 All the functions will be implemented using an Arduino mega board with an atmega2560. This board offers us a wide range of possibilities, thanks in particular to all its available ports such as its 5 programmable timers and its many interrupt ports. This will be useful for the rest of the project. To make it easier to connect to the board, we plugged a Grove Shield into the Arduino board. This module allows us to interface all our sensors simply using 4 wires that include the power supply (Vcc, GND) and two Arduino ports (digital, i2c, analogue, etc.).
-### Analysing the track
-### Generating motor control signals
-### Varying the duty cycle
+## Analysing the track
+## Generating motor control signals
+## Varying the duty cycle
 ### Following the trail
-### Finding a shortcut
-### Vehicle detection
-### End of course
-### Bonus : Making a figure
-### Visualise the state of the robot
+## Finding a shortcut
+## Vehicle detection### End of course
+## Bonus : Making a figure
+## Visualise the state of the robot
 ## 3D Modelisation
 # Deliverables
 # Contributions
