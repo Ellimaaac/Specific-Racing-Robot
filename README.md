@@ -11,6 +11,7 @@ Created by DAUNOIS Hugo and LANFREDI Camille
   - [Functional analysis](#Functional-analysis)
   - [Development](#development)
   - [3D Modelisation](#3D-Modelisation)
+  - [BONUS](#bonus)
 - [Deliverables](#Deliverables)
 - [Contributions](#-contributions)
 
