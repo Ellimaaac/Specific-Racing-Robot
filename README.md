@@ -6,7 +6,8 @@ Realized in 2022
 ## 📖 Table of contents
 
 - [Objectifs](#-Objectifs)
-  - [Rules](#Rules)   
+  - [Rules](#Rules)
+  - [Components](#Components)
 - [Specifications](#-Specifications)
   - [Functional analysis](#Functional-analysis)
   - [Development](#development)
@@ -17,6 +18,8 @@ Realized in 2022
 
 # Objectifs
 ## Rules
+### Components
+[List of components]()
 # Specifications
 ## Functional analysis
 ### Order 1
