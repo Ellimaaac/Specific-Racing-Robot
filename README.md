@@ -68,7 +68,17 @@ Robots must follow the line corresponding to their course in the correct directi
 #### False finish :
 When a robot A loses and knocks down the final bar of its opponent B, it is considered that B arrived without knocking down the second bar and A never arrived. B therefore receives three points, but B continues his race to the end of his runway and collects points until the end, even though he is already considered to be the winner even though he is already considered to have arrived. If possible, robot A should be removed from the track before robot B joins it in order to avoid a collision.
 When a robot A is lost and it disrupts a feature of its opponent B's course, other than the final bar, and which could have earned points for its opponent B, the maximum points associated with this feature are automatically given to B.
-### Article 7:
+### Article 7:Various collisions
+A collision is considered to have occurred when a priority robot is likely to be hindered by clear contact
+with a non-priority robot.
+  - When there is simple contact without the priority robot appearing to be unduly disturbed, there is no collision.
+  - When there is a single contact without the priority robot appearing to be unduly disturbed, the continues normally, regardless of the state of the non-priority robot. However, therobot receives a **time penalty of 5s**.
+  - In the event of a collision, the robot at fault scores no points in this round. The robot that has been hindered plays the round again on its own.
+  - In the event of a collision between two lost robots, the round ends with neither robot scoring any points for that round.
+
+Robots must not deliberately try to cause collisions, whether or not they have priority, whether actively or passively. In particular, countermeasures to prevent a robot from being detected are forbidden. A robot that does not comply with this
+rule may be immediately excluded from the competition.
+For details go check the rules (it's in french) : [Race's rules](
 ### Components
 [List of components](List-of-components.md)
 # Specifications
