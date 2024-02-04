@@ -12,12 +12,12 @@ Created by DAUNOIS Hugo and LANFREDI Camille
 - [Development](#development)
   - [Analysing the track](#Analysing-the-track)    
   - [Generating motor control signals](#Generating-motor-control-signals)
-  - [Varying the duty cycle](#Varying-the-duty-cycle)
-  - [Following the trail](#Following-the-trail)
-  - [Finding a shortcut](#Finding-a-shortcut)
-  - [Vehicle detection](#Vehicle-detection)
-  - [End of course](#End-of-course)
-  - [Making a figure](#Making-a-figure)
+    - [Varying the duty cycle](#Varying-the-duty-cycle)
+    - [Following the trail](#Following-the-trail)
+    - [Finding a shortcut](#Finding-a-shortcut)
+    - [Vehicle detection](#Vehicle-detection)
+    - [End of course](#End-of-course)
+    - [Making a figure](#Making-a-figure)
   - [Visualise the state of the robot](#Visualise-the-state-of-the-robot)
   - [3D Modelisation](#3D-Modelisation)
   - [BONUS](#bonus)
@@ -132,7 +132,43 @@ picture
 We therefore need to analyse the sensor data to determine whether we are following the line or detecting an indicator.
 To do this, we're going to count the number of sensors that have a reflectance above a certain threshold. This will tell us which mode the robot is in the track.
 
+picture
+
+But this method is incomplete. It is not possible to distinguish whether the indicator is on the right or the left. We have therefore drawn up the following table:
+
+picture
+
+As we can see, it is the high index sensors that detect the presence of a on the right. For the indicator on the left, it's the low index sensors. However, since as tracking is not perfect, this will rarely be the case. That's why, to anticipate all possible cases possible cases, we average the sensor indices over the black.
+
+picture
+
+So, from this average we can deduce the position of each indicator on the track.
+
+We have therefore created the following programme:
+
+picture
+
+To find out which mode we're in, we use two variables: average and BlackCount.
+
+BlackCount allows us to determine the number of sensors positioned on black. Using this information, we can deduce the robot's position. If the robot is completely on black or white, if it must follow the line (1 or 2 sensors) and finally if there are any
+indicators.
+
+To find out where the indicators are, we use the average variable.
+This allows us to calculate the average of the sensors transmitting on black. We can therefore deduce whether the indicator is positioned on the right-hand side of the circuit (low average) or on the left-hand side (high average).
+
+To make the connection between the Arduino mega and the QTR-8RC module, we need to create an
+electronic board. To do this, we use the Eagle software.
+
+To ensure that this board has the same footprint as that of the Arduino mega, we are using the
+schematic of a Grove Mega Shield version 0.9 module.
+We use a PL1 connector that allows all the sensors to be interfaced with a single cable.
+library: con-harting-v and a Grove connector to link with the QTR-8RC module and the Arduino mega's power supply pins.
+
+picture
+picture
+
 ## Generating motor control signals
+The track is complex, meaning that the robot's tracking is not limited to following a line. As a result, there are several factors that change the speed of the motors. So there are several functions. The aim of this main function is to be able to vary the speed of the motors according to different situations on the track.
 ## Varying the duty cycle
 ## Following the trail
 ## Finding a shortcut
