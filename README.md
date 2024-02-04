@@ -10,6 +10,7 @@ Created by DAUNOIS Hugo and LANFREDI Camille
 - [Specifications](#Specifications)
   - [Functional analysis](#Functional-analysis)
 - [Development](#development)
+  - [Analysing the track](#Analysing-the-track)    
   - [Generating motor control signals](#Generating-motor-control-signals)
   - [Varying the duty cycle](#Varying-the-duty-cycle)
   - [Following the trail](#Following-the-trail)
