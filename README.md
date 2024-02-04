@@ -124,6 +124,14 @@ picture
 After calibrating them, i.e. moving the sensors on the track so that they can tell the difference between black and white, we can use the readlineblack function.  This allows us to detect the position of the line between 0 and 7000 (because we have 8 sensors). The position is estimated from a weighted average of the sensor indices multiplied by 1000, i.e. 0 on sensor 0, 1000 on sensor 1, etc. It also returns the reflection of each sensor in an array called SensorValue. We can see that each time a sensor transmits on the track it returns the location of the line in relation to all the sensors. (See: "Position of the track relative sensors" below).
 
 picture
+
+After several tests, we realised that when the robot passes over an indicator, the position is wrong. the position is wrong. As this image shows:
+
+picture
+
+We therefore need to analyse the sensor data to determine whether we are following the line or detecting an indicator.
+To do this, we're going to count the number of sensors that have a reflectance above a certain threshold. This will tell us which mode the robot is in the track.
+
 ## Generating motor control signals
 ## Varying the duty cycle
 ## Following the trail
