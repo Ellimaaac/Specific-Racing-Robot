@@ -130,7 +130,7 @@ picture
 ## Finding a shortcut
 ## Vehicle detection
 ## End of course
-## Bonus : Making a figure
+## Making a figure
 ## Visualise the state of the robot
 ## 3D Modelisation
 # Deliverables
