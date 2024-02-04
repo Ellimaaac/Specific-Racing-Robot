@@ -172,7 +172,7 @@ The track is complex, meaning that the robot's tracking is not limited to follow
 ### Varying the duty cycle
 This function is one of the most important. It enables the motors to be controlled according to the instructions sent by the other FTs. To manage the motors, we use the Motor Shield.
 This module is based on the L298P component, which incorporates a double H-bridge that enables two motors to be controlled independently. It can also control the direction of these motors.
-To control the speed of the motors, two square-wave variable duty cycle (PWM) for each motor. To generate these two PWM and avoid taking up too much processor time, we use Timers. Timers allow us to generate PWM signals while doing other things. To use them, we use the ***TimerOne*** and ***TimerThree*** libraries, which work in the same way. the same way.
+To control the speed of the motors, two square-wave variable duty cycle (PWM) for each motor. To generate these two PWM and avoid taking up too much processor time, we use Timers. Timers allow us to generate PWM signals while doing other things. To use them, we use the ***TimerOne*** and ***TimerThree*** libraries, which work in the same way. 
 ### Following the trail
 ### Finding a shortcut
 ### Vehicle detection
